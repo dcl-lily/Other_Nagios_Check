@@ -76,7 +76,7 @@
 	注意：需要python支持,脚本为python2.7下开发，需要apache启用管理
 	
 	
-##check_apache.py  检查Apache状态
+##check_mysql.py  检查Apache状态
 
 	使用方法：
 		
@@ -84,7 +84,9 @@
 	
 		check_mysql.py -h 其他用法请查看帮助吧
 		
-	注意：需要python支持,脚本为python2.7下开发，需要pymysql支持，可使用pip install MySQLdb进行安装，mysql目前只支持5.7以下版本。
+	注意：需要python支持,脚本为python2.7下开发，需要pymysql支持，可使用pip install MySQLdb进行安装，
+	
+			mysql目前只支持5.7以下版本。
 	
 	    
 		

@@ -65,4 +65,26 @@
 	   
 	   修改为：  strCommand = "%SystemRoot%\System32\w32tm.exe /monitor /nowarn /computers:" & serverlist
 	
-	        
+##check_apache.py  检查Apache状态
+
+	使用方法：
+		
+		check_apache.py -H 127.0.0.1 -o IdleWorkers -w 80 -c 90 C gt
+	
+		check_apache.py -h 其他用法请查看帮助吧
+		
+	注意：需要python支持,脚本为python2.7下开发，需要apache启用管理
+	
+	
+##check_apache.py  检查Apache状态
+
+	使用方法：
+		
+		check_mysql.py -H 127.0.0.1 -u mysqluser -p mysqlpassword -o Max_Used_Connections -w 80 -c 90 C gt
+	
+		check_mysql.py -h 其他用法请查看帮助吧
+		
+	注意：需要python支持,脚本为python2.7下开发，需要pymysql支持，可使用pip install MySQLdb进行安装，mysql目前只支持5.7以下版本。
+	
+	    
+		

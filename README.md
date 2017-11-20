@@ -87,6 +87,18 @@
 	注意：需要python支持,脚本为python2.7下开发，需要pymysql支持，可使用pip install MySQLdb进行安装，
 	
 			mysql目前只支持5.7以下版本。
+			
+##Check_WMI_IIS.VBS  检查IIS性能状况
+	
+	使用方法：
+		
+		cscript //nologo Check_WMI_IIS.vbs mail BytesTotalPersec
+
+		cscript //nologo Check_WMI_IIS.vbs mail TotalLockedErrors 5 10
+	
+		cscript //nologo Check_WMI_IIS.vbs mail ServiceUptime 3600 2400 lt
+		
+		
 	
 	    
 		
